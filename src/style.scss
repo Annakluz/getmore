@@ -1,3 +1,5 @@
+@import "_variables";
+
 html {
     box-sizing: border-box;
 }
@@ -11,17 +13,27 @@ html {
     font-size: 16px;
 }
 
-.nav{
+.barra{
     display: grid;
-    grid-template-rows: 43px;
-    grid-template-columns: 512px;
+    grid-template-rows: 10vh;
+    grid-template-columns: 1fr;
     
 }
+
+.nav{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+
+    div{
+    display: inline-block;
+    }
+    }
 
 .imagen{
     display: grid;
     grid-template-columns: 512px;
-    grid-template-rows: 180px;
+    grid-template-rows: 60vh;
     background-image: url("assets/img/IMG_20170220_121229490.jpg");
     background-size: cover;
     background-position:bottom;
