@@ -1,4 +1,34 @@
-body {
-  background-color: green; }
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  font-family: 'HelveticaNeue';
+  font-size: 16px; }
+
+.nav {
+  display: grid;
+  grid-template-rows: 43px;
+  grid-template-columns: 512px; }
+
+.imagen {
+  display: grid;
+  grid-template-columns: 512px;
+  grid-template-rows: 180px;
+  background-image: url("assets/img/IMG_20170220_121229490.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat; }
+
+.funciona__img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.funciona__img-principales {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr; }
 
 /*# sourceMappingURL=style.css.map */
